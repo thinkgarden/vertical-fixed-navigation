@@ -10,7 +10,7 @@ $(function(){
   navigationItems.on('click', function(event){
         event.preventDefault();
         smoothScroll($(this.hash));
-    }); P
+    });
     //smooth scroll to second section
     $('.cd-scroll-down').on('click', function(event){
         event.preventDefault();
